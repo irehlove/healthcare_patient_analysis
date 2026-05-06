@@ -1,9 +1,9 @@
 # 🏥 Hospital Patient Data Analytics & Business Intelligence Dashboard
 
 ## Project Summary
-This project focuses on analyzing hospital patient data to uncover operational, financial, and clinical insights through data cleaning, transformation, SQL analysis, and interactive dashboards. The project simulates a real-world healthcare analytics workflow by taking messy raw patient records and converting them into a structured, analysis-ready dataset.
+I built this project to focuses on analyzing hospital patient data to uncover operational, financial, and clinical insights through data cleaning, transformation, SQL analysis, and interactive dashboards.  simulates a real-world healthcare analytics workflow by taking messy raw patient records and converting them into a structured, analysis-ready dataset.
 
-Using SQL, Excel, and Power BI, the project explores trends such as patient volume, diagnosis distribution, insurance impact, treatment costs, length of stay, and readmission behavior. The final outcome includes a cleaned healthcare dataset and a business intelligence dashboard designed to support data-driven healthcare decisions.
+Using SQL, Excel, and Power BI, the project explores trends such as patient volume, diagnosis distribution, insurance impact, treatment costs, length of stay, and readmission behavior. The final outcome includes a cleaned healthcare dataset, an exploratory data analysis on data that I had found to help providers and patients alike, and a business intelligence dashboard designed to improve operational efficiency and patient flow, while also maintaining financial stability and rotating revenue.
 
 ---
 
@@ -55,7 +55,7 @@ Data cleaning was performed primarily using MySQL.
 - `UPDATE`
 - `TRIM()`
 - `UPPER()/LOWER()`
-
+- 'CTE'
 ---
 
 ## 3. Exploratory Data Analysis (EDA)
@@ -63,12 +63,12 @@ Data cleaning was performed primarily using MySQL.
 EDA was performed using SQL queries and Power BI visualizations to identify patterns and trends such as:
 
 - Monthly patient admissions
-- Average length of stay
+- Average length of stay/Operational Efficiency
 - Insurance vs patient responsibility
-- Treatment costs by category
+- Treatment costs by category Financial Distribution
 - Diagnosis frequency
 - Visit type analysis
-- Readmission trends
+- Readmission trends/Quality of Care
 
 ---
 
@@ -83,7 +83,6 @@ Interactive dashboards were created in Power BI to provide visual insights into 
 - Visit type vs length of stay analysis
 - Insurance coverage insights
 - Patient admission trends
-- KPI summary cards
 
 ---
 
@@ -91,7 +90,7 @@ Interactive dashboards were created in Power BI to provide visual insights into 
 
 | Technology | Purpose |
 |---|---|
-| MySQL 8.x | Data cleaning and transformation |
+| MySQL 8.0 | Data cleaning and transformation |
 | Power BI Desktop | Dashboard creation and visualization |
 | Microsoft Excel | Initial data inspection |
 | SQL | Data querying and analysis |
